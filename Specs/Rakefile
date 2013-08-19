@@ -84,26 +84,29 @@ task :clean_Specs do
   Specs.system_or_exit "rm -rf #{Specs::BUILD_DIR}/*", Specs.output_file("clean")
 end
 
-desc "Build Specs"
+desc "Build Specs OCUnit application specs"
 task :build_Specs => :clean_Specs do
   Specs.kill_simulator
-  Specs.system_or_exit "pushd #{Specs::PROJECT_ROOT} ; xcodebuild -target #{Specs::UI_SPECS_TARGET_NAME} -configuration #{Specs::CONFIGURATION} -sdk iphonesimulator build ; popd", Specs.output_file("Specs")
+  Specs.system_or_exit "pushd #{Specs::PROJECT_ROOT} ; xcodebuild -target PaperBoy-Spike -configuration #{Specs::CONFIGURATION} -sdk iphonesimulator#{Specs.deployment_target_sdk_version} build TEST_AFTER_BUILD=NO SYMROOT='#{Specs::BUILD_DIR}' ; popd", Specs.output_file("Specs-AppBuild")
+  Specs.system_or_exit "pushd #{Specs::PROJECT_ROOT} ; xcodebuild -target #{Specs::UI_SPECS_TARGET_NAME} -configuration #{Specs::CONFIGURATION} -sdk iphonesimulator#{Specs.deployment_target_sdk_version} build TEST_AFTER_BUILD=NO SYMROOT='#{Specs::BUILD_DIR}' ; popd", Specs.output_file("Specs-SpecBuild")
 end
 
-desc "Run Specs"
+desc "Run Specs OCUnit application specs"
 task :Specs => :build_Specs do
   env_vars = {
     "DYLD_ROOT_PATH" => Specs.deployment_target_sdk_dir,
+    "DYLD_INSERT_LIBRARIES" => "#{Specs.xcode_developer_dir}/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection",
+    "DYLD_FALLBACK_LIBRARY_PATH" => Specs.deployment_target_sdk_dir,
+    "XCInjectBundle" => "#{File.join(Specs.build_dir("-iphonesimulator"), "#{Specs::UI_SPECS_TARGET_NAME}.octest")}",
+    "XCInjectBundleInto" => "#{File.join(Specs.build_dir("-iphonesimulator"), "PaperBoy-Spike.app/PaperBoy-Spike")}",
     "IPHONE_SIMULATOR_ROOT" => Specs.deployment_target_sdk_dir,
     "CFFIXED_USER_HOME" => Dir.tmpdir,
     "CEDAR_HEADLESS_SPECS" => "1",
-    "CEDAR_REPORTER_CLASS" => "CDRColorizedReporter"
+    "CEDAR_REPORTER_CLASS" => "CDRColorizedReporter",
   }
 
-  app_path = File.join(Specs.build_dir("-iphonesimulator"), "#{Specs::UI_SPECS_TARGET_NAME}.app")
-
   Specs.with_env_vars(env_vars) do
-    Specs.system_or_exit "#{File.join(Specs.build_dir("-iphonesimulator"), "#{Specs::UI_SPECS_TARGET_NAME}.app", Specs::UI_SPECS_TARGET_NAME)} -RegisterForSystemEvents";
+    Specs.system_or_exit "#{File.join(Specs.build_dir("-iphonesimulator"), "PaperBoy-Spike.app/PaperBoy-Spike")} -RegisterForSystemEvents -SenTest All";
   end
 end
 

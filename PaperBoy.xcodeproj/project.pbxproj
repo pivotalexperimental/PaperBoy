@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE37823417C2A95D0072DE22 /* PBAppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE37823317C2A95D0072DE22 /* PBAppDelegateSpec.mm */; };
+		AE4ABD5217C2A75F00DE86A0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4ABD3A17C2A52100DE86A0 /* SenTestingKit.framework */; };
+		AE4ABD5317C2A75F00DE86A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */; };
+		AE4ABD5417C2A75F00DE86A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C617C2735900343FC2 /* UIKit.framework */; };
+		AE4ABD5517C2A75F00DE86A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C817C2735900343FC2 /* Foundation.framework */; };
+		AE4ABD5B17C2A75F00DE86A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE4ABD5917C2A75F00DE86A0 /* InfoPlist.strings */; };
+		AE4ABD6017C2A75F00DE86A0 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4ABD5F17C2A75F00DE86A0 /* Cedar-iOS.framework */; };
 		AE4DC1C717C2735900343FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C617C2735900343FC2 /* UIKit.framework */; };
 		AE4DC1C917C2735900343FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C817C2735900343FC2 /* Foundation.framework */; };
 		AE4DC1CB17C2735900343FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */; };
-		AE4DC1D117C2735900343FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC1CF17C2735900343FC2 /* InfoPlist.strings */; };
-		AE4DC1D317C2735900343FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC1D217C2735900343FC2 /* main.m */; };
-		AE4DC1D717C2735900343FC2 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC1D617C2735900343FC2 /* PBAppDelegate.m */; };
-		AE4DC1D917C2735900343FC2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC1D817C2735900343FC2 /* Default.png */; };
-		AE4DC1DB17C2735900343FC2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC1DA17C2735900343FC2 /* Default@2x.png */; };
-		AE4DC1DD17C2735900343FC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC1DC17C2735900343FC2 /* Default-568h@2x.png */; };
 		AE4DC20017C2754700343FC2 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1F717C2753100343FC2 /* libCedar-StaticLib.a */; };
-		AE4DC20617C2757B00343FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C617C2735900343FC2 /* UIKit.framework */; };
-		AE4DC20717C2757B00343FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C817C2735900343FC2 /* Foundation.framework */; };
-		AE4DC20817C2757B00343FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */; };
-		AE4DC20E17C2757B00343FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC20C17C2757B00343FC2 /* InfoPlist.strings */; };
-		AE4DC21017C2757B00343FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC20F17C2757B00343FC2 /* main.m */; };
-		AE4DC21417C2757C00343FC2 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC21317C2757C00343FC2 /* Cedar-iOS.framework */; };
-		AE4DC21617C2757C00343FC2 /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC21517C2757C00343FC2 /* ExampleSpec.mm */; };
 		AE4DC22817C2763B00343FC2 /* libPivotalPublication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22317C2762100343FC2 /* libPivotalPublication.a */; };
 		AE4DC22A17C276B200343FC2 /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22917C276B200343FC2 /* NewsstandKit.framework */; };
 		AE4DC22C17C276BA00343FC2 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22B17C276BA00343FC2 /* libz.1.1.3.dylib */; };
+		AE696BCF17C2AEBF0029D8C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE696BC517C2AEBF0029D8C2 /* Default-568h@2x.png */; };
+		AE696BD017C2AEBF0029D8C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE696BC617C2AEBF0029D8C2 /* Default.png */; };
+		AE696BD117C2AEBF0029D8C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE696BC717C2AEBF0029D8C2 /* Default@2x.png */; };
+		AE696BD217C2AEBF0029D8C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE696BC817C2AEBF0029D8C2 /* InfoPlist.strings */; };
+		AE696BD317C2AEBF0029D8C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE696BCA17C2AEBF0029D8C2 /* main.m */; };
+		AE696BD417C2AEBF0029D8C2 /* PaperBoy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE696BCB17C2AEBF0029D8C2 /* PaperBoy-Info.plist */; };
+		AE696BD517C2AEBF0029D8C2 /* PBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE696BCE17C2AEBF0029D8C2 /* PBAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,34 +111,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE4DC1C317C2735900343FC2 /* PaperBoy-Spike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaperBoy-Spike.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE37823317C2A95D0072DE22 /* PBAppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBAppDelegateSpec.mm; sourceTree = "<group>"; };
+		AE4ABD3A17C2A52100DE86A0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AE4ABD5117C2A75F00DE86A0 /* Specs.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4ABD5817C2A75F00DE86A0 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		AE4ABD5A17C2A75F00DE86A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE4ABD5E17C2A75F00DE86A0 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		AE4ABD5F17C2A75F00DE86A0 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		AE4ABD6117C2A75F00DE86A0 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		AE4DC1C317C2735900343FC2 /* PaperBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DC1C617C2735900343FC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE4DC1C817C2735900343FC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AE4DC1CE17C2735900343FC2 /* PaperBoy-Spike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperBoy-Spike-Info.plist"; sourceTree = "<group>"; };
-		AE4DC1D017C2735900343FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AE4DC1D217C2735900343FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4DC1D417C2735900343FC2 /* PaperBoy-Spike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaperBoy-Spike-Prefix.pch"; sourceTree = "<group>"; };
-		AE4DC1D517C2735900343FC2 /* PBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
-		AE4DC1D617C2735900343FC2 /* PBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
-		AE4DC1D817C2735900343FC2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		AE4DC1DA17C2735900343FC2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		AE4DC1DC17C2735900343FC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AE4DC1E417C2753000343FC2 /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
-		AE4DC20517C2757B00343FC2 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4DC20B17C2757B00343FC2 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
-		AE4DC20D17C2757B00343FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AE4DC20F17C2757B00343FC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4DC21117C2757B00343FC2 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
-		AE4DC21217C2757B00343FC2 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
-		AE4DC21317C2757C00343FC2 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
-		AE4DC21517C2757C00343FC2 /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
 		AE4DC21A17C2762100343FC2 /* PivotalPublication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PivotalPublication.xcodeproj; path = PivotalPublication/PivotalPublication.xcodeproj; sourceTree = "<group>"; };
 		AE4DC22917C276B200343FC2 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
 		AE4DC22B17C276BA00343FC2 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		AE696BC517C2AEBF0029D8C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AE696BC617C2AEBF0029D8C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE696BC717C2AEBF0029D8C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AE696BC917C2AEBF0029D8C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE696BCA17C2AEBF0029D8C2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE696BCB17C2AEBF0029D8C2 /* PaperBoy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PaperBoy-Info.plist"; sourceTree = "<group>"; };
+		AE696BCC17C2AEBF0029D8C2 /* PaperBoy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PaperBoy-Prefix.pch"; sourceTree = "<group>"; };
+		AE696BCD17C2AEBF0029D8C2 /* PBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAppDelegate.h; sourceTree = "<group>"; };
+		AE696BCE17C2AEBF0029D8C2 /* PBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE4ABD4D17C2A75F00DE86A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4ABD5217C2A75F00DE86A0 /* SenTestingKit.framework in Frameworks */,
+				AE4ABD5317C2A75F00DE86A0 /* CoreGraphics.framework in Frameworks */,
+				AE4ABD5417C2A75F00DE86A0 /* UIKit.framework in Frameworks */,
+				AE4ABD5517C2A75F00DE86A0 /* Foundation.framework in Frameworks */,
+				AE4ABD6017C2A75F00DE86A0 /* Cedar-iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE4DC1C017C2735900343FC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,27 +165,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE4DC20217C2757B00343FC2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE4DC20617C2757B00343FC2 /* UIKit.framework in Frameworks */,
-				AE4DC20717C2757B00343FC2 /* Foundation.framework in Frameworks */,
-				AE4DC20817C2757B00343FC2 /* CoreGraphics.framework in Frameworks */,
-				AE4DC21417C2757C00343FC2 /* Cedar-iOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4ABD5617C2A75F00DE86A0 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ABD5E17C2A75F00DE86A0 /* Rakefile */,
+				AE37823317C2A95D0072DE22 /* PBAppDelegateSpec.mm */,
+				AE4ABD5F17C2A75F00DE86A0 /* Cedar-iOS.framework */,
+				AE4ABD5717C2A75F00DE86A0 /* Supporting Files */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		AE4ABD5717C2A75F00DE86A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ABD5817C2A75F00DE86A0 /* Specs-Info.plist */,
+				AE4ABD5917C2A75F00DE86A0 /* InfoPlist.strings */,
+				AE4ABD6117C2A75F00DE86A0 /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AE4DC1BA17C2735900343FC2 = {
 			isa = PBXGroup;
 			children = (
-				AE4DC22B17C276BA00343FC2 /* libz.1.1.3.dylib */,
-				AE4DC22917C276B200343FC2 /* NewsstandKit.framework */,
-				AE4DC1CC17C2735900343FC2 /* PaperBoy-Spike */,
-				AE4DC20917C2757B00343FC2 /* Specs */,
+				AE696BC417C2AEBF0029D8C2 /* PaperBoy */,
+				AE4ABD5617C2A75F00DE86A0 /* Specs */,
 				AE4DC1C517C2735900343FC2 /* Frameworks */,
 				AE4DC1E317C274AD00343FC2 /* Externals */,
 				AE4DC1C417C2735900343FC2 /* Products */,
@@ -182,8 +203,8 @@
 		AE4DC1C417C2735900343FC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE4DC1C317C2735900343FC2 /* PaperBoy-Spike.app */,
-				AE4DC20517C2757B00343FC2 /* Specs.app */,
+				AE4DC1C317C2735900343FC2 /* PaperBoy.app */,
+				AE4ABD5117C2A75F00DE86A0 /* Specs.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,35 +212,14 @@
 		AE4DC1C517C2735900343FC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE4DC22B17C276BA00343FC2 /* libz.1.1.3.dylib */,
+				AE4DC22917C276B200343FC2 /* NewsstandKit.framework */,
 				AE4DC1C617C2735900343FC2 /* UIKit.framework */,
 				AE4DC1C817C2735900343FC2 /* Foundation.framework */,
 				AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */,
+				AE4ABD3A17C2A52100DE86A0 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AE4DC1CC17C2735900343FC2 /* PaperBoy-Spike */ = {
-			isa = PBXGroup;
-			children = (
-				AE4DC1D517C2735900343FC2 /* PBAppDelegate.h */,
-				AE4DC1D617C2735900343FC2 /* PBAppDelegate.m */,
-				AE4DC1CD17C2735900343FC2 /* Supporting Files */,
-			);
-			path = "PaperBoy-Spike";
-			sourceTree = "<group>";
-		};
-		AE4DC1CD17C2735900343FC2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE4DC1CE17C2735900343FC2 /* PaperBoy-Spike-Info.plist */,
-				AE4DC1CF17C2735900343FC2 /* InfoPlist.strings */,
-				AE4DC1D217C2735900343FC2 /* main.m */,
-				AE4DC1D417C2735900343FC2 /* PaperBoy-Spike-Prefix.pch */,
-				AE4DC1D817C2735900343FC2 /* Default.png */,
-				AE4DC1DA17C2735900343FC2 /* Default@2x.png */,
-				AE4DC1DC17C2735900343FC2 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		AE4DC1E317C274AD00343FC2 /* Externals */ = {
@@ -246,28 +246,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE4DC20917C2757B00343FC2 /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				AE4DC21217C2757B00343FC2 /* Rakefile */,
-				AE4DC21317C2757C00343FC2 /* Cedar-iOS.framework */,
-				AE4DC21517C2757C00343FC2 /* ExampleSpec.mm */,
-				AE4DC20A17C2757B00343FC2 /* Supporting Files */,
-			);
-			path = Specs;
-			sourceTree = "<group>";
-		};
-		AE4DC20A17C2757B00343FC2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE4DC20B17C2757B00343FC2 /* Specs-Info.plist */,
-				AE4DC20C17C2757B00343FC2 /* InfoPlist.strings */,
-				AE4DC20F17C2757B00343FC2 /* main.m */,
-				AE4DC21117C2757B00343FC2 /* Specs-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		AE4DC21B17C2762100343FC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,12 +255,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AE696BC417C2AEBF0029D8C2 /* PaperBoy */ = {
+			isa = PBXGroup;
+			children = (
+				AE696BC517C2AEBF0029D8C2 /* Default-568h@2x.png */,
+				AE696BC617C2AEBF0029D8C2 /* Default.png */,
+				AE696BC717C2AEBF0029D8C2 /* Default@2x.png */,
+				AE696BC817C2AEBF0029D8C2 /* InfoPlist.strings */,
+				AE696BCA17C2AEBF0029D8C2 /* main.m */,
+				AE696BCB17C2AEBF0029D8C2 /* PaperBoy-Info.plist */,
+				AE696BCC17C2AEBF0029D8C2 /* PaperBoy-Prefix.pch */,
+				AE696BCD17C2AEBF0029D8C2 /* PBAppDelegate.h */,
+				AE696BCE17C2AEBF0029D8C2 /* PBAppDelegate.m */,
+			);
+			path = PaperBoy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE4DC1C217C2735900343FC2 /* PaperBoy-Spike */ = {
+		AE4ABD5017C2A75F00DE86A0 /* Specs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE4DC1E017C2735900343FC2 /* Build configuration list for PBXNativeTarget "PaperBoy-Spike" */;
+			buildConfigurationList = AE4ABD6217C2A75F00DE86A0 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				AE4ABD4C17C2A75F00DE86A0 /* Sources */,
+				AE4ABD4D17C2A75F00DE86A0 /* Frameworks */,
+				AE4ABD4E17C2A75F00DE86A0 /* Resources */,
+				AE4ABD4F17C2A75F00DE86A0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = AE4ABD5117C2A75F00DE86A0 /* Specs.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AE4DC1C217C2735900343FC2 /* PaperBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4DC1E017C2735900343FC2 /* Build configuration list for PBXNativeTarget "PaperBoy" */;
 			buildPhases = (
 				AE4DC1BF17C2735900343FC2 /* Sources */,
 				AE4DC1C017C2735900343FC2 /* Frameworks */,
@@ -293,26 +305,9 @@
 			dependencies = (
 				AE4DC22717C2763600343FC2 /* PBXTargetDependency */,
 			);
-			name = "PaperBoy-Spike";
+			name = PaperBoy;
 			productName = "PaperBoy-Spike";
-			productReference = AE4DC1C317C2735900343FC2 /* PaperBoy-Spike.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AE4DC20417C2757B00343FC2 /* Specs */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE4DC21717C2757C00343FC2 /* Build configuration list for PBXNativeTarget "Specs" */;
-			buildPhases = (
-				AE4DC20117C2757B00343FC2 /* Sources */,
-				AE4DC20217C2757B00343FC2 /* Frameworks */,
-				AE4DC20317C2757B00343FC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Specs;
-			productName = Specs;
-			productReference = AE4DC20517C2757B00343FC2 /* Specs.app */;
+			productReference = AE4DC1C317C2735900343FC2 /* PaperBoy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +320,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pivotal Labs";
 			};
-			buildConfigurationList = AE4DC1BE17C2735900343FC2 /* Build configuration list for PBXProject "PaperBoy-Spike" */;
+			buildConfigurationList = AE4DC1BE17C2735900343FC2 /* Build configuration list for PBXProject "PaperBoy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -347,8 +342,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				AE4DC1C217C2735900343FC2 /* PaperBoy-Spike */,
-				AE4DC20417C2757B00343FC2 /* Specs */,
+				AE4DC1C217C2735900343FC2 /* PaperBoy */,
+				AE4ABD5017C2A75F00DE86A0 /* Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -427,43 +422,59 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE4ABD4E17C2A75F00DE86A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4ABD5B17C2A75F00DE86A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE4DC1C117C2735900343FC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4DC1D117C2735900343FC2 /* InfoPlist.strings in Resources */,
-				AE4DC1D917C2735900343FC2 /* Default.png in Resources */,
-				AE4DC1DB17C2735900343FC2 /* Default@2x.png in Resources */,
-				AE4DC1DD17C2735900343FC2 /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE4DC20317C2757B00343FC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE4DC20E17C2757B00343FC2 /* InfoPlist.strings in Resources */,
+				AE696BD117C2AEBF0029D8C2 /* Default@2x.png in Resources */,
+				AE696BD217C2AEBF0029D8C2 /* InfoPlist.strings in Resources */,
+				AE696BCF17C2AEBF0029D8C2 /* Default-568h@2x.png in Resources */,
+				AE696BD017C2AEBF0029D8C2 /* Default.png in Resources */,
+				AE696BD417C2AEBF0029D8C2 /* PaperBoy-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE4ABD4F17C2A75F00DE86A0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		AE4ABD4C17C2A75F00DE86A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE37823417C2A95D0072DE22 /* PBAppDelegateSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE4DC1BF17C2735900343FC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4DC1D317C2735900343FC2 /* main.m in Sources */,
-				AE4DC1D717C2735900343FC2 /* PBAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE4DC20117C2757B00343FC2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE4DC21017C2757B00343FC2 /* main.m in Sources */,
-				AE4DC21617C2757C00343FC2 /* ExampleSpec.mm in Sources */,
+				AE696BD517C2AEBF0029D8C2 /* PBAppDelegate.m in Sources */,
+				AE696BD317C2AEBF0029D8C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,18 +489,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE4DC1CF17C2735900343FC2 /* InfoPlist.strings */ = {
+		AE4ABD5917C2A75F00DE86A0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE4DC1D017C2735900343FC2 /* en */,
+				AE4ABD5A17C2A75F00DE86A0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AE4DC20C17C2757B00343FC2 /* InfoPlist.strings */ = {
+		AE696BC817C2AEBF0029D8C2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE4DC20D17C2757B00343FC2 /* en */,
+				AE696BC917C2AEBF0029D8C2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -497,6 +508,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AE4ABD6317C2A75F00DE86A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaperBoy.app/PaperBoy";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AE4ABD6417C2A75F00DE86A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaperBoy.app/PaperBoy";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		AE4DC1DE17C2735900343FC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -561,8 +620,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PaperBoy-Spike/PaperBoy-Spike-Prefix.pch";
-				INFOPLIST_FILE = "PaperBoy-Spike/PaperBoy-Spike-Info.plist";
+				GCC_PREFIX_HEADER = "PaperBoy/PaperBoy-Prefix.pch";
+				INFOPLIST_FILE = "PaperBoy/PaperBoy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -572,53 +631,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PaperBoy-Spike/PaperBoy-Spike-Prefix.pch";
-				INFOPLIST_FILE = "PaperBoy-Spike/PaperBoy-Spike-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		AE4DC21817C2757C00343FC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Specs/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		AE4DC21917C2757C00343FC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Specs/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-					"-lstdc++",
-				);
+				GCC_PREFIX_HEADER = "PaperBoy/PaperBoy-Prefix.pch";
+				INFOPLIST_FILE = "PaperBoy/PaperBoy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -627,7 +641,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE4DC1BE17C2735900343FC2 /* Build configuration list for PBXProject "PaperBoy-Spike" */ = {
+		AE4ABD6217C2A75F00DE86A0 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4ABD6317C2A75F00DE86A0 /* Debug */,
+				AE4ABD6417C2A75F00DE86A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4DC1BE17C2735900343FC2 /* Build configuration list for PBXProject "PaperBoy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE4DC1DE17C2735900343FC2 /* Debug */,
@@ -636,20 +659,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE4DC1E017C2735900343FC2 /* Build configuration list for PBXNativeTarget "PaperBoy-Spike" */ = {
+		AE4DC1E017C2735900343FC2 /* Build configuration list for PBXNativeTarget "PaperBoy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE4DC1E117C2735900343FC2 /* Debug */,
 				AE4DC1E217C2735900343FC2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE4DC21717C2757C00343FC2 /* Build configuration list for PBXNativeTarget "Specs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE4DC21817C2757C00343FC2 /* Debug */,
-				AE4DC21917C2757C00343FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
