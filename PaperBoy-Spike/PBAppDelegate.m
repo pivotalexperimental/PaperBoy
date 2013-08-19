@@ -1,11 +1,3 @@
-//
-//  PBAppDelegate.m
-//  PaperBoy-Spike
-//
-//  Created by pivotal on 8/19/13.
-//  Copyright (c) 2013 Pivotal Labs. All rights reserved.
-//
-
 #import "PBAppDelegate.h"
 
 @implementation PBAppDelegate

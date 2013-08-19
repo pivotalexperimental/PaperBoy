@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UINewsstandApp</key>
+	<true/>
+	<key>ServerURLDebug</key>
+	<string>http://localhost:3000/publications/1.json</string>
+	<key>ServerURL</key>
+	<string>http://pivotal-paperboy.herokuapp.com/publications/1.json</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
