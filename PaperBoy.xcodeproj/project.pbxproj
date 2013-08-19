@@ -17,7 +17,6 @@
 		AE4DC1C717C2735900343FC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C617C2735900343FC2 /* UIKit.framework */; };
 		AE4DC1C917C2735900343FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1C817C2735900343FC2 /* Foundation.framework */; };
 		AE4DC1CB17C2735900343FC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1CA17C2735900343FC2 /* CoreGraphics.framework */; };
-		AE4DC20017C2754700343FC2 /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC1F717C2753100343FC2 /* libCedar-StaticLib.a */; };
 		AE4DC22817C2763B00343FC2 /* libPivotalPublication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22317C2762100343FC2 /* libPivotalPublication.a */; };
 		AE4DC22A17C276B200343FC2 /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22917C276B200343FC2 /* NewsstandKit.framework */; };
 		AE4DC22C17C276BA00343FC2 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4DC22B17C276BA00343FC2 /* libz.1.1.3.dylib */; };
@@ -158,7 +157,6 @@
 				AE4DC22C17C276BA00343FC2 /* libz.1.1.3.dylib in Frameworks */,
 				AE4DC22A17C276B200343FC2 /* NewsstandKit.framework in Frameworks */,
 				AE4DC22817C2763B00343FC2 /* libPivotalPublication.a in Frameworks */,
-				AE4DC20017C2754700343FC2 /* libCedar-StaticLib.a in Frameworks */,
 				AE4DC1C717C2735900343FC2 /* UIKit.framework in Frameworks */,
 				AE4DC1C917C2735900343FC2 /* Foundation.framework in Frameworks */,
 				AE4DC1CB17C2735900343FC2 /* CoreGraphics.framework in Frameworks */,
@@ -622,6 +620,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PaperBoy/PaperBoy-Prefix.pch";
 				INFOPLIST_FILE = "PaperBoy/PaperBoy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRANK_LIBRARY_SEARCH_PATHS)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(FRANK_LDFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

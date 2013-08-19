@@ -1,0 +1,325 @@
+TPaperBoy
+v5
+r1
+cCheck dependencies
+cSymLink /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+cProcessInfoPlistFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Info.plist PaperBoy/PaperBoy-Info.plist
+cProcessPCH /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth PaperBoy/PaperBoy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o /Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o /Users/pivotal/workspace/PaperBoy/PaperBoy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy normal i386
+cGenerateDSYMFile /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy
+cCpResource PaperBoy/Default@2x.png Frank/frankified_build/./PaperBoy.app/Default@2x.png
+cCopyStringsFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/en.lproj/InfoPlist.strings PaperBoy/en.lproj/InfoPlist.strings
+cCpResource PaperBoy/Default-568h@2x.png Frank/frankified_build/./PaperBoy.app/Default-568h@2x.png
+cCpResource PaperBoy/Default.png Frank/frankified_build/./PaperBoy.app/Default.png
+cCopyPlistFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy-Info.plist PaperBoy/PaperBoy-Info.plist
+cTouch /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051F7B6330000000000000110
+t1375188531
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000516D96650000000000228FE0
+t1366136421
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000516D966600000000003DDFA0
+t1366136422
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000516D966600000000000015F7
+t1366136422
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/NewsstandKit.framework/NewsstandKit
+c00000000516D966800000000000120D0
+t1366136424
+s73936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000516D96680000000000000E8D
+t1366136424
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000516D96690000000000AB6230
+t1366136425
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000516D96710000000000001B73
+t1366136433
+s7027
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/lib/libz.1.1.3.dylib
+c00000000516D96720000000000013500
+t1366136434
+s79104
+
+N/Users/pivotal/workspace/PaperBoy/Externals/PivotalPublication/PivotalPublication/PBPublication.h
+c000000005212753B000000000000009B
+t1376941371
+s155
+
+N/Users/pivotal/workspace/PaperBoy/Externals/PivotalPublication/build/Debug-iphonesimulator/libPivotalPublication.a
+c000000005212822E00000000000B22C0
+t1376944686
+s729792
+
+N/Users/pivotal/workspace/PaperBoy/Externals/cedar/build/Debug-iphonesimulator/libCedar-StaticLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default.png
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default@2x.png
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Info.plist
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy-Info.plist
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PkgInfo
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/Default-568h@2x.png
+c0000000050748B2300000000000048A2
+t1349815075
+s18594
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/Default.png
+c0000000050748B23000000000000198C
+t1349815075
+s6540
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/Default@2x.png
+c0000000050748B230000000000003EEB
+t1349815075
+s16107
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.h
+c0000000052127A24000000000000008F
+t1376942628
+s143
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m
+c0000000052127A2400000000000001E1
+t1376942628
+s481
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Info.plist
+c000000005212715100000000000006E9
+t1376940369
+s1769
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Prefix.pch
+c0000000052127A24000000000000014B
+t1376942628
+s331
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/en.lproj/InfoPlist.strings
+c0000000052123BD9000000000000002D
+t1376926681
+s45
+
+N/Users/pivotal/workspace/PaperBoy/PaperBoy/main.m
+c0000000052123BD90000000000000158
+t1376926681
+s344
+
+N/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o
+t2
+s0
+
+N/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PaperBoy.LinkFileList
+c000000005212822E00000000000000F7
+t1376944686
+s247
+
+N/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth
+t2
+s0
+
+NPaperBoy/PaperBoy-Info.plist
+c000000005212715100000000000006E9
+t1376940369
+s1769
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc6144caeb9c2b741^eeb14caeb9c2b741^-118"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'PaperBoy/PaperBoy-Info.plist'.1(21%IDEActivityLogMessage2@117"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'PaperBoy/PaperBoy-Info.plist'.-398637486#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"5EE36229-8FED-4647-B61D-435FC0910928-
+
+CCompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o /Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398637486.531697
+e398637486.577887
+r1
+xCompileC
+xbuild/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o
+x/Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m853e88aeb9c2b741^d4ee93aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m0000000000000000^4568"CompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o PaperBoy/PBAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pivotal/workspace/PaperBoy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-generated-files.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-own-target-headers.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-all-target-headers.hmap -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-project-headers.hmap -iquoteExternals/PivotalPublication -iquoteExternals/PivotalPublication/Externals -iquoteExternals/PivotalPublication/PivotalPublication -iquoteExternals/PivotalPublication/Specs -iquoteExternals/PivotalPublication/Externals/cedar -iquoteExternals/PivotalPublication/Externals/PivotalCoreKit -iquoteExternals/PivotalPublication/Externals/ZipArchive -iquoteExternals/PivotalPublication/PivotalPublication/Controllers -iquoteExternals/PivotalPublication/PivotalPublication/Interfaces -iquoteExternals/PivotalPublication/PivotalPublication/Models -iquoteExternals/PivotalPublication/PivotalPublication/Resources -iquoteExternals/PivotalPublication/PivotalPublication/Views -iquoteExternals/PivotalPublication/Specs/Controllers -iquoteExternals/PivotalPublication/Specs/Extensions -iquoteExternals/PivotalPublication/Specs/Interfaces -iquoteExternals/PivotalPublication/Specs/Models -iquoteExternals/PivotalPublication/Externals/ZipArchive/minizip -I/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources/i386 -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources -F/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator -include /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.d --serialize-diagnostics /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.dia -c /Users/pivotal/workspace/PaperBoy/PaperBoy/PBAppDelegate.m -o /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PBAppDelegate.o36"937A5E88-6F37-4703-9682-D0841EA3F18B-
+
+CCompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o /Users/pivotal/workspace/PaperBoy/PaperBoy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398637486.531801
+e398637486.550329
+r1
+xCompileC
+xbuild/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o
+x/Users/pivotal/workspace/PaperBoy/PaperBoy/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/pivotal/workspace/PaperBoy/PaperBoy/main.m703f88aeb9c2b741^3be28caeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/main.m0000000000000000^4514"CompileC build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o PaperBoy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pivotal/workspace/PaperBoy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-generated-files.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-own-target-headers.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-all-target-headers.hmap -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-project-headers.hmap -iquoteExternals/PivotalPublication -iquoteExternals/PivotalPublication/Externals -iquoteExternals/PivotalPublication/PivotalPublication -iquoteExternals/PivotalPublication/Specs -iquoteExternals/PivotalPublication/Externals/cedar -iquoteExternals/PivotalPublication/Externals/PivotalCoreKit -iquoteExternals/PivotalPublication/Externals/ZipArchive -iquoteExternals/PivotalPublication/PivotalPublication/Controllers -iquoteExternals/PivotalPublication/PivotalPublication/Interfaces -iquoteExternals/PivotalPublication/PivotalPublication/Models -iquoteExternals/PivotalPublication/PivotalPublication/Resources -iquoteExternals/PivotalPublication/PivotalPublication/Views -iquoteExternals/PivotalPublication/Specs/Controllers -iquoteExternals/PivotalPublication/Specs/Extensions -iquoteExternals/PivotalPublication/Specs/Interfaces -iquoteExternals/PivotalPublication/Specs/Models -iquoteExternals/PivotalPublication/Externals/ZipArchive/minizip -I/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources/i386 -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources -F/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator -include /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch -DFRANKIFIED -MMD -MT dependencies -MF /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.dia -c /Users/pivotal/workspace/PaperBoy/PaperBoy/main.m -o /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/main.o36"4FBFF9B6-B891-4487-80C9-491AEFD89B3E-
+
+CCopyPlistFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy-Info.plist PaperBoy/PaperBoy-Info.plist
+s398637486.752912
+e398637486.760118
+r1
+xCopyPlistFile
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy-Info.plist
+xPaperBoy/PaperBoy-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy PaperBoy/PaperBoy-Info.plist99d8c0aeb9c2b741^2997c2aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Info.plist0000000000000000^693"CopyPlistFile Frank/frankified_build/./PaperBoy.app/PaperBoy-Info.plist PaperBoy/PaperBoy-Info.plist    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-copyPlist --convert binary1 --outdir /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app -- PaperBoy/PaperBoy-Info.plist36"1FC40548-922D-40C7-A713-B0138C7032E8-
+
+CCopyStringsFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/en.lproj/InfoPlist.strings PaperBoy/en.lproj/InfoPlist.strings
+s398637486.752883
+e398637486.759023
+r1
+xCopyStringsFile
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/en.lproj/InfoPlist.strings
+xPaperBoy/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy PaperBoy/en.lproj/InfoPlist.strings56d8c0aeb9c2b741^764fc2aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/en.lproj/InfoPlist.strings0000000000000000^766"CopyStringsFile Frank/frankified_build/./PaperBoy.app/en.lproj/InfoPlist.strings PaperBoy/en.lproj/InfoPlist.strings    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/en.lproj -- PaperBoy/en.lproj/InfoPlist.strings36"D91E0AE4-32C8-463C-B30E-8762055ED1A4-
+
+CCpResource PaperBoy/Default-568h@2x.png Frank/frankified_build/./PaperBoy.app/Default-568h@2x.png
+s398637486.752882
+e398637486.755099
+r1
+xCpResource
+xPaperBoy/Default-568h@2x.png
+xFrank/frankified_build/./PaperBoy.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Frank/frankified_build/./PaperBoy.app/Default-568h@2x.pngcfd7c0aeb9c2b741^6e4ec1aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default-568h@2x.png000000000080d041^790"CpResource "PaperBoy/Default-568h@2x.png" "Frank/frankified_build/./PaperBoy.app/Default-568h@2x.png"    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/pivotal/workspace/PaperBoy/PaperBoy/Default-568h@2x.png" /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app36"A318DC09-B42E-481B-B0B8-4CD697451410-
+
+CCpResource PaperBoy/Default.png Frank/frankified_build/./PaperBoy.app/Default.png
+s398637486.752903
+e398637486.756173
+r1
+xCpResource
+xPaperBoy/Default.png
+xFrank/frankified_build/./PaperBoy.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Frank/frankified_build/./PaperBoy.app/Default.pngaed7c0aeb9c2b741^e294c1aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default.png000000000080d041^760"CpResource PaperBoy/Default.png Frank/frankified_build/./PaperBoy.app/Default.png    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/pivotal/workspace/PaperBoy/PaperBoy/Default.png /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app36"C02E8EBE-4ABB-4471-BAE9-2468A0EB3A64-
+
+CCpResource PaperBoy/Default@2x.png Frank/frankified_build/./PaperBoy.app/Default@2x.png
+s398637486.752872
+e398637486.757486
+r1
+xCpResource
+xPaperBoy/Default@2x.png
+xFrank/frankified_build/./PaperBoy.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Frank/frankified_build/./PaperBoy.app/Default@2x.png02d8c0aeb9c2b741^eeeac1aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Default@2x.png000000000080d041^775"CpResource "PaperBoy/Default@2x.png" "Frank/frankified_build/./PaperBoy.app/Default@2x.png"    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/pivotal/workspace/PaperBoy/PaperBoy/Default@2x.png" /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app36"15A2A51A-99C3-4172-A940-D83937228487-
+
+CGenerateDSYMFile /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy
+s398637486.656318
+e398637486.745116
+r1
+xGenerateDSYMFile
+x/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generate /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYMca1ba8aeb9c2b741^87bfbeaeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM000000000080d041^813"GenerateDSYMFile build/Debug-iphonesimulator/PaperBoy.app.dSYM Frank/frankified_build/./PaperBoy.app/PaperBoy    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy -o /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app.dSYM36"EB93C264-ADE0-44DB-9596-2EF58AD92AA2-
+
+CLd /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy normal i386
+s398637486.584442
+e398637486.649453
+r1
+xLd
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Link /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoyabb495aeb9c2b741^af42a6aeb9c2b741^---0#0#0#--1665"Ld Frank/frankified_build/./PaperBoy.app/PaperBoy normal i386    cd /Users/pivotal/workspace/PaperBoy    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator -L/Users/pivotal/workspace/PaperBoy/Frank -F/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator -filelist /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/Objects-normal/i386/PaperBoy.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -framework CFNetwork -framework Security -lShelley -lFrank -lShelley -lCocoaAsyncSocket -lCocoaLumberjack -lCocoaHTTPServer -lFrank -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -lz.1.1.3 -framework NewsstandKit /Users/pivotal/workspace/PaperBoy/Externals/PivotalPublication/build/Debug-iphonesimulator/libPivotalPublication.a -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PaperBoy36"4FBFF004-58C2-429A-8387-EDCB5BE4709C-
+
+CProcessInfoPlistFile /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Info.plist PaperBoy/PaperBoy-Info.plist
+s398637486.303350
+e398637486.307148
+r1
+xProcessInfoPlistFile
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Info.plist
+xPaperBoy/PaperBoy-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process PaperBoy/PaperBoy-Info.plistcec34daeb9c2b741^73a14eaeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Info.plist0000000000000000^836"ProcessInfoPlistFile Frank/frankified_build/./PaperBoy.app/Info.plist PaperBoy/PaperBoy-Info.plist    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    builtin-infoPlistUtility PaperBoy/PaperBoy-Info.plist -genpkginfo /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app/Info.plist36"A1135EDC-BAAF-46AD-96CF-5FD17CC4982E-
+
+CProcessPCH /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth PaperBoy/PaperBoy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398637486.316086
+e398637486.524741
+r1
+xProcessPCH
+x/var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth
+xPaperBoy/PaperBoy-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile PaperBoy/PaperBoy-Prefix.pch3a0551aeb9c2b741^f85486aeb9c2b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Prefix.pch0000000000000000^4574"ProcessPCH /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth PaperBoy/PaperBoy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/pivotal/workspace/PaperBoy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-generated-files.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-own-target-headers.hmap -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-all-target-headers.hmap -iquote /Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/PaperBoy-project-headers.hmap -iquoteExternals/PivotalPublication -iquoteExternals/PivotalPublication/Externals -iquoteExternals/PivotalPublication/PivotalPublication -iquoteExternals/PivotalPublication/Specs -iquoteExternals/PivotalPublication/Externals/cedar -iquoteExternals/PivotalPublication/Externals/PivotalCoreKit -iquoteExternals/PivotalPublication/Externals/ZipArchive -iquoteExternals/PivotalPublication/PivotalPublication/Controllers -iquoteExternals/PivotalPublication/PivotalPublication/Interfaces -iquoteExternals/PivotalPublication/PivotalPublication/Models -iquoteExternals/PivotalPublication/PivotalPublication/Resources -iquoteExternals/PivotalPublication/PivotalPublication/Views -iquoteExternals/PivotalPublication/Specs/Controllers -iquoteExternals/PivotalPublication/Specs/Extensions -iquoteExternals/PivotalPublication/Specs/Interfaces -iquoteExternals/PivotalPublication/Specs/Models -iquoteExternals/PivotalPublication/Externals/ZipArchive/minizip -I/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources/i386 -I/Users/pivotal/workspace/PaperBoy/build/PaperBoy.build/Debug-iphonesimulator/PaperBoy.build/DerivedSources -F/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.dia -c /Users/pivotal/workspace/PaperBoy/PaperBoy/PaperBoy-Prefix.pch -o /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/gq/fsh65cfx3_d6s8c3v_6tp_7m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperBoy-Prefix-aaavmqgrylnzdrboznyoooajguuo/PaperBoy-Prefix.pch.d36"49BDB392-6C95-4682-A3DE-DF0489C9F218-
+
+CSymLink /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+s398637486.303341
+e398637486.308177
+r1
+xSymLink
+x/Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app41b94daeb9c2b741^15e54eaeb9c2b741^---0#0#0#--689"SymLink build/Debug-iphonesimulator/PaperBoy.app Frank/frankified_build/./PaperBoy.app    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /bin/ln -sf /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app /Users/pivotal/workspace/PaperBoy/build/Debug-iphonesimulator/PaperBoy.app36"D4FCE094-F84D-4301-8699-5E97F3DCE92C-
+
+CTouch /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+s398637486.768237
+e398637486.772872
+r1
+xTouch
+x/Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.appa6bac4aeb9c2b741^34dbc5aeb9c2b741^---0#0#0#--577"Touch Frank/frankified_build/./PaperBoy.app    cd /Users/pivotal/workspace/PaperBoy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/pivotal/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/pivotal/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/pivotal/workspace/PaperBoy/Frank/frankified_build/./PaperBoy.app36"AEB36461-A70A-4319-897B-E27CFE6DC759-
+
